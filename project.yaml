@@ -1,0 +1,84 @@
+basic:
+    name: Uniphore
+    environments:
+        production: 'https://www.uniphore.com/'
+        staging: ''
+        development: ''
+    breakpoints:
+        - 640
+        - 960
+        - 1200
+    pages:
+        - /
+        - /platform
+        - /zero-data-ai
+        - /products/u/u-assist
+        - /products/u/u-capture
+        - /products/u/u-discover
+        - /products/u/u-self-serve
+        - /products/actioniq
+        - /products/q/q-for-sales
+        - /products/x-stream
+        - /products/q/q-for-recruiting
+        - /solutions/use-cases/acquisition-marketing
+        - /solutions/use-cases/deliver-an-exceptional-customer-experience
+        - /solutions/use-cases/drive-revenue
+        - /solutions/use-cases/customer-growth-and-retention
+        - /solutions/use-cases/identity-resolution
+        - /solutions/use-cases/journey-orchestration
+        - /solutions/use-cases/operational-efficiency
+        - /solutions/use-cases/time-to-value
+        - /solutions/industries/b2b-tech-support
+        - /solutions/industries/banking
+        - /solutions/industries/healthcare
+        - /solutions/industries/high-tech
+        - /solutions/industries/telecom
+        - /solutions/industries/travel-and-hospitality
+        - /resources
+        - /blog
+        - /events
+        - /glossary
+        - /podcasts
+        - /webinar
+        - /about-us
+        - /our-team
+        - /board-of-directors
+        - /partners
+        - /support
+        - /careers
+        - /newsroom
+        - /recognition
+        - /testimonials
+        - /contact
+        - /blog/generative-ai-powered-conversational-insights
+        - /zero-data-ai-cloud
+        - /generative-ai
+        - /knowledge-ai
+        - /emotion-ai
+        - /conversational-ai
+        - /what-is-cdp
+    monitoring:
+        days: [Sun]
+        type: weekly
+        schedule_time: '12:30 AM'
+        schedule_time_zone: Europe/London
+        compare_with: last-production
+        compare_with_fresh: production
+advanced:
+    mask: ''
+    remove: ''
+    isolate: ''
+    delay: 15
+    scroll: true
+    headers:
+        - { header: '', value: '' }
+    cookies: ''
+    custom_js: ''
+    custom_css: ''
+    mock_content: ''
+    performance:
+        workers_production: 30
+        workers_nonproduction: 10
+        workers_production_delay: 0
+        workers_nonproduction_delay: 0
+    stabilize: true
