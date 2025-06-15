@@ -4,10 +4,6 @@ basic:
         production: 'https://www.uniphore.com/'
         staging: ''
         development: ''
-    basicAuth:
-        production: { user: '', password: '' }
-        staging: { user: '', password: '' }
-        development: null
     breakpoints:
         - 640
         - 960
@@ -73,12 +69,11 @@ advanced:
     remove: ''
     delay: 15
     scroll: true
-    headers:
-        - { header: '', value: '' }
+    headers: {  }
     cookies: ''
     custom_js: ''
     custom_css: ''
-    mock_content: ''
+    mock_content: {  }
     sensitivity: 5
     night_mode: false
     retina_images: false
